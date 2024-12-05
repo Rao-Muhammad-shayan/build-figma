@@ -102,7 +102,7 @@ background:#ffffffc9;
     padding: 1rem 2rem;
     border-radius: 3rem;
     position: absolute;
-    left: 12rem;
+    left: 10rem;
 }
  .image-box>.image-container{
     object-fit: contain;
@@ -233,7 +233,7 @@ margin-top: 6rem !important;
         padding: 1rem 2rem;
         border-radius: 3rem;
         position: absolute;
-        left: 12rem;
+        left: 10rem;
       top: 0.1rem;
     }
 }
