@@ -2,7 +2,9 @@
 .search-container {
     position: relative;
   top: -0.5rem;
- 
+ display: flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
 }
 
 #search-input {
@@ -25,7 +27,7 @@
     
 
 }.fa-search{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color:rgb(59, 57, 57);
     background: #fff;
 }
@@ -240,7 +242,9 @@ margin-top: 6rem !important;
  @media  only screen and (max-width: 1400px) {
 /* nav-items */
     .nav-ul{
-    margin-left: 5rem;
+    
+      
+        margin-right: -4rem;
  }
     div.buttons-box>button{
     display: none;
