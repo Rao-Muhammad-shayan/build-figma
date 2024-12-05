@@ -218,6 +218,25 @@ margin-top: 6rem !important;
     flex-wrap: wrap;
     margin-top: 3rem;
 }
+@media only screen and (min-width:1000px) {
+    .input-container>button{
+      border-radius: 3rem;
+      padding: 1rem 2rem;
+     top: -0.7rem;
+    
+    }
+}
+@media only screen and (min-width:1200px) {
+    .input-container>button{
+        background: #000;
+        color: #fff;
+        padding: 1rem 2rem;
+        border-radius: 3rem;
+        position: absolute;
+        left: 12rem;
+      top: 0.1rem;
+    }
+}
  @media  only screen and (max-width: 1400px) {
 /* nav-items */
     .nav-ul{
